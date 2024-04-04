@@ -1,8 +1,8 @@
 # Challenge 1 :: Cloud Native Applications
 
-In this challenge, we will be creating a simple application, and you can use any programming language you want.
+In this challenge, we will create a simple application, and you can use any programming language you want.
 
-This challenge aims to prove that you can build simple applications that include simple frontends and backends.
+This challenge aims to prove you can build simple applications with simple frontends and backends.
 
 1) Expose a web page with a text area and a button. This button calls the endpoint described in 2
 2) Create a backend with an HTTP endpoint ('/save') that takes the content of the text area and keeps it in an in-memory collection (slice or array)

@@ -5,11 +5,11 @@ In this challenge, we will extend the application from [Challenge 1](https://git
 
 ## Objectives
 
-1. File System Storage (Branch: fs):
+1. **File System Storage (Branch: fs):**
 
 - Create a branch (called `fs` or `filesystem`) from the `main` branch and store the list of texts saved into a file (using the file system APIs provided by your programming language of choice). Ensure the application can read from this file to retrieve previously saved texts.
 
-2. SQL Database Storage (Branch: sql):
+2. **SQL Database Storage (Branch: sql):**
 
 - Create a branch (called `sql`), set up a SQL database of your choice, and store the list of texts in a table inside the database. Recommended PostgreSQL, but you can choose any SQL database that you want.
 - Modify the application to save texts into this database table.

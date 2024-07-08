@@ -1,30 +1,42 @@
 # Challenge 1 :: Cloud Native Applications
 
-In this challenge, we will create a simple application, and you can use any programming language you want.
+Welcome to Challenge 1 of our Cloud Native Applications series!
 
-This challenge aims to prove you can build simple applications with simple frontends and backends.
+This challenge serves as a foundational step towards understanding and implementing cloud-native principles in application development. 
 
-1) Expose a web page with a text area and a button. This button calls the endpoint described in 2
-2) Create a backend with an HTTP endpoint ('/save') that takes the content of the text area and keeps it in an in-memory collection (slice or array)
-3) Create another HTTP endpoint ('/all`) that returns all the elements stored in the collection
-4) Add the list of saved elements in the backend to the web page.
+In this challenge, you will create a simple web application using any programming language of your choice.
+
+## Objectives
+
+1. Application Setup:
+- Develop a web page with a text area and a button. When the button is clicked, it should interact with the backend endpoint described in 2.
+
+2. Backend Development:
+- Implement a backend with an HTTP endpoint ('/save') that receives data from the frontend (text area input) and stores it in an in-memory collection (like a slice or array).
+- Create another HTTP endpoint ('/all`) that retrieves and returns all elements stored in the collection.
+
+3. Integration:
+- Display the retrieved data on the web page to demonstrate full-stack communication.
 
 ## Deliverables
 
-You need to create a GitHub repository that contains the following structure:
+To complete this challenge, set up a GitHub repository (`challenge-1`) with the following structure:
 
 ```
-challenge-1/README.md <- the instructions to build, run, and test the application locally. 
-challenge-1/app/ <- the source code of the application
+challenge-1/README.md <- Detailed instructions on how to build, run, and test the application locally. 
+challenge-1/app/ <- Directory containing the source code for both the frontend and backend components of your application.
 ```
 
-After forking your repository, you should push all the code required for me to run the application. 
+Ensure that your repository contains all necessary code and instructions for others to replicate and run your application seamlessly.
 
 ## Important Lessons Learned
+By completing this challenge, you will gain insights into several key aspects of cloud-native development:
 
-- Creating an HTTP server and exposing endpoints
-- Basic Client-Server architecture and how the web works.
+- **HTTP Server Basics:** Learn how to create an HTTP server and define and expose endpoints.
+- **Client-Server Interaction:** Understand how web applications communicate between frontend and backend components using HTTP.
+- **Data Management:** Learn basic techniques for handling and storing data within an application's memory.
+- **Development Workflow:** Practice setting up a GitHub repository, organizing your code, and documenting your project for collaboration.
 
 ## References
 
-- [Julia's Challenge One experience](https://www.juliafmorgado.com/posts/cloud-native-dev-challenge-1/)
+- [Julia's Challenge 1 experience](https://www.juliafmorgado.com/posts/cloud-native-dev-challenge-1/)

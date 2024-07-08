@@ -9,14 +9,14 @@ In this challenge, you will create a simple web application using any programmin
 ## Objectives
 
 1. **Application Setup:**
-- Develop a web page with a text area and a button. When the button is clicked, it should interact with the backend endpoint described in 2.
+Develop a web page with a text area and a button. When the button is clicked, it should interact with the backend endpoint described in 2.
 
 2. **Backend Development:**
 - Implement a backend with an HTTP endpoint ('/save') that receives data from the frontend (text area input) and stores it in an in-memory collection (like a slice or array).
 - Create another HTTP endpoint ('/all`) that retrieves and returns all elements stored in the collection.
 
 3. **Integration:**
-- Display the retrieved data on the web page to demonstrate full-stack communication.
+Display the retrieved data on the web page to demonstrate full-stack communication.
 
 ## Deliverables
 

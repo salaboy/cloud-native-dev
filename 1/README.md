@@ -1,10 +1,19 @@
 # Challenge 1 :: Cloud Native Applications
 
-Welcome to Challenge 1 of our Cloud Native Applications series!
+Welcome to Challenge 1 of our Cloud Native Developer Journey series!
 
-This challenge serves as a foundational step towards understanding and implementing cloud-native principles in application development. 
+This challenge serves as a foundational step toward understanding and implementing cloud-native principles in application development. 
 
 In this challenge, you will create a simple web application using any programming language of your choice.
+
+## Prerequisites
+Before starting this challenge, ensure you have the following:
+
+- **Basic Programming Knowledge:** Familiarity with at least one programming language (e.g., JavaScript, Python, Go, etc.) and an understanding of coding principles.
+- **Web Development Fundamentals:** Basic understanding of web technologies like HTML and CSS to create simple user interfaces.
+- **Familiarity with HTTP:** An understanding of [how HTTP works](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), including requests and responses, and the ability to interact with endpoints.
+- **Tools & Setup:** You should have a development environment set up (e.g., VS Code, WebStorm) and be familiar with using version control tools like - [Git](https://git-scm.com/) and [GitHub](https://github.com/) for collaboration and version management.
+- **Understanding of Architectural Models:** A conceptual understanding of how frontend and backend components interact within a web application.
 
 ## Objectives
 
@@ -37,6 +46,9 @@ By completing this challenge, you will gain insights into several key aspects of
 - **Data Management:** Learn basic techniques for handling and storing data within an application's memory.
 - **Development Workflow:** Practice setting up a GitHub repository, organizing your code, and documenting your project for collaboration.
 
+## Frequently Asked Questions
+Check the [FAQ](./FAQ/challenge1.md) to find answers to common questions about this challenge.
+
 ## References
 
-- [Julia's Challenge 1 experience](https://www.juliafmorgado.com/posts/cloud-native-dev-challenge-1/)
+- [Julia's Challenge 1 experience](https://www.juliafmorgado.com/posts/challenge-1-create-a-simple-app-with-http-endpoints-and-host-in-github/)
